@@ -82,6 +82,7 @@ $ kubectl get pod
 $ #!/bin/bash 
 $ sh iam-authenticator.sh 
 $ kubectl get pod
+## aws eks update-kubeconfig --name terraform-eks-demo
 ## deploy cluster auto scaler
 $ kubectl apply -f clusterautoscaler.yml
 
